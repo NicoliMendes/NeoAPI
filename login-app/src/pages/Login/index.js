@@ -1,8 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './login.css'
+
 import { MdEmail, MdLock } from "react-icons/md";
+import { MdVisibility, MdVisibilityOff } from "react-icons/md";
+
 
 function Login() {
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+    const [show, setShow] = useState(false)
+
+    const handleClick = (e) => {
+        e.preventDefault()
+        setShow(!show);
+    }
+
     return (
         <div className="login">
             <div className="login-logo">
@@ -13,22 +25,48 @@ function Login() {
             <div className="login-right">
                 <h1>Acessar o App</h1>
 
-                <div className="loginInputEmail">
+                <div className="login-loginInputEmail">
                     <MdEmail/>
                     <input 
-                    type="text"
+                    type="email"
                     placeholder="Email"
+                    value={email}
+                    onChange={e => setEmail(e.target.value)}
                     />
                 </div>
 
-                <div className="loginInputPassword">
+                <div className="login-loginInputPassword">
                     <MdLock/>
                     <input 
-                    type="text"
                     placeholder="Password"
+                    type={show ? "text" : "password"}
+                    value={password}
+                    onChange={e => setPassword(e.target.value)}
                     />
+                    <div className="login-eye">
+                        {show ? (
+                            <MdVisibility 
+                                size={20}
+                                onClick={handleClick}
+                            />
+                        ) : (
+                            <MdVisibilityOff 
+                                size={20}
+                                onClick={handleClick}
+                            />
+                        )}
+                    </div>
                 </div>
 
+                <button type="submit">
+                    Entrar
+                </button>
+
+                <h4>Não tenho conta</h4>
+
+                <button type="submit">
+                    Cadastrar
+                </button>
             </div>
         </div>
     )
