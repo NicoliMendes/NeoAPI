@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
 import './login.css'
 
-import { MdEmail, MdLock } from "react-icons/md";
+import { MdPerson, MdLock } from "react-icons/md";
 import { MdVisibility, MdVisibilityOff } from "react-icons/md";
 
 
 function Login() {
-    const [email, setEmail] = useState("")
+    const [user, setUser] = useState("")
     const [password, setPassword] = useState("")
     const [show, setShow] = useState(false)
 
@@ -18,20 +18,20 @@ function Login() {
     return (
         <div className="login">
             <div className="login-logo">
-                <img src="https://i.imgur.com/00YVSWf.png" //https://cdn-icons-png.flaticon.com/512/3408/3408455.png
+                <img src=/* https://i.imgur.com/00YVSWf.png */ "https://cdn-icons-png.flaticon.com/512/3408/3408455.png"
                 alt="Login App"/>
             </div>
 
             <div className="login-right">
                 <h1>Acessar NeoAPI</h1>
 
-                <div className="login-loginInputEmail">
-                    <MdEmail/>
+                <div className="login-loginInputUser">
+                    <MdPerson/>
                     <input 
-                    type="email"
-                    placeholder="Email"
-                    value={email}
-                    onChange={e => setEmail(e.target.value)}
+                    type="user"
+                    placeholder="Usuário"
+                    value={user}
+                    onChange={e => setUser(e.target.value)}
                     />
                 </div>
 

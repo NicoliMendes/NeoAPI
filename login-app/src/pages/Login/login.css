@@ -41,7 +41,7 @@
     color: #e1e1e6;
 }
 
-.login-loginInputEmail {
+.login-loginInputUser {
     display: flex;
     align-items: center;
     color: gray;
@@ -52,7 +52,7 @@
     height: 50px;
 }
 
-.login-loginInputEmail input {
+.login-loginInputUser input {
     background: transparent;
     width: 100%;
     outline-width: 0;
@@ -63,7 +63,7 @@
     margin-right: 10px;
 }
 
-.login-loginInputEmail svg {
+.login-loginInputUser svg {
     margin-left: 10px;
     font-size: 25px;
 }
