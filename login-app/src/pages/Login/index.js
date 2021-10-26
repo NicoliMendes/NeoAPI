@@ -18,12 +18,12 @@ function Login() {
     return (
         <div className="login">
             <div className="login-logo">
-                <img src="https://cdn-icons-png.flaticon.com/512/3408/3408455.png" 
+                <img src="https://i.imgur.com/00YVSWf.png" //https://cdn-icons-png.flaticon.com/512/3408/3408455.png
                 alt="Login App"/>
             </div>
 
             <div className="login-right">
-                <h1>Acessar o App</h1>
+                <h1>Acessar NeoAPI</h1>
 
                 <div className="login-loginInputEmail">
                     <MdEmail/>
