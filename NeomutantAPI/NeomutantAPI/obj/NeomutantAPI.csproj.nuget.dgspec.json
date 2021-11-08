@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicoli.mendes\\source\\repos\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj": {}
+    "C:\\Projetos\\NeoAPI\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicoli.mendes\\source\\repos\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj": {
+    "C:\\Projetos\\NeoAPI\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicoli.mendes\\source\\repos\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj",
+        "projectUniqueName": "C:\\Projetos\\NeoAPI\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj",
         "projectName": "NeomutantAPI",
-        "projectPath": "C:\\Users\\nicoli.mendes\\source\\repos\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj",
-        "packagesPath": "C:\\Users\\nicoli.mendes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicoli.mendes\\source\\repos\\NeomutantAPI\\NeomutantAPI\\obj\\",
+        "projectPath": "C:\\Projetos\\NeoAPI\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj",
+        "packagesPath": "C:\\Users\\michael.gabriel\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\NeoAPI\\NeomutantAPI\\NeomutantAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nicoli.mendes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\michael.gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
