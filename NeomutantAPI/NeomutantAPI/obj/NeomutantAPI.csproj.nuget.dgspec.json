@@ -10,11 +10,15 @@
         "projectUniqueName": "C:\\Projetos\\NeoAPI\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj",
         "projectName": "NeomutantAPI",
         "projectPath": "C:\\Projetos\\NeoAPI\\NeomutantAPI\\NeomutantAPI\\NeomutantAPI.csproj",
-        "packagesPath": "C:\\Users\\michael.gabriel\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\nicoli.mendes\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\NeoAPI\\NeomutantAPI\\NeomutantAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\michael.gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicoli.mendes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
